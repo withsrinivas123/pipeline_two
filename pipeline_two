@@ -19,5 +19,10 @@ pipeline {
                 echo 'Hello test'
             }
         }
+        stage('release') {
+            steps {
+                echo 'Hello release'
+            }
+        }
     }
 }
